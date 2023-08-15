@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: cimg/base:current
-    resource_class: shashi-sharmabhardwaj_cvsh/testoidc
+    resource_class: sshbh/testhello
     steps:
       - run: echo "Hi I'm on a Container Runner!"
 workflows:
